@@ -41,7 +41,6 @@ function decode(expr) {
     let list = []
     let letter = ''
     let i = 0
-    let simbol = ''
     while (i < expr.length){
         while (letter.length < 10) {
             letter = `${letter}${expr[i]}`
