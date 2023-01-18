@@ -48,8 +48,6 @@ function decode(expr) {
         }
         list.push(letter)
         letter = ''
-    
-    
     }
     
     let ans = []
@@ -65,11 +63,9 @@ function decode(expr) {
             }
             i++
         }
-        
     }
     ans.push(a)
     }
-    
     ans2 = []
     for (i of ans){
         b = MORSE_TABLE[i]
@@ -86,7 +82,6 @@ function decode(expr) {
             
         }
     }
-    
     return ans3.join('')
 }
 
